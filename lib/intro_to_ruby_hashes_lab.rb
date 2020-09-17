@@ -1,5 +1,5 @@
 def my_hash_creator(key, value)
-my_hash_creator(:name, "George")
+  my_hash_creator(:name, "George")
     => {:name=>"George"}
    2.6.1 :011 > my_hash_creator(:id, 5)
     => {:id=>5}
